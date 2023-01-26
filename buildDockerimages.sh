@@ -8,6 +8,7 @@ build() {
     centos9-git) DOCKERFILE=Dockerfile.CentOS9 ;;
     ubuntulunar-git) DOCKERFILE=Dockerfile.ubuntulunar ;;
     alpine-git) DOCKERFILE=Dockerfile.alpine ;;
+    fedora36-git) DOCKERFILE=Dockerfile.fedora36 ;;
   esac
 }
 
