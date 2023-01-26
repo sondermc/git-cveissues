@@ -4,3 +4,4 @@ ubuntulunar-git
 alpine-git
 fedora36-git
 archlinux-git
+debiantesting-git

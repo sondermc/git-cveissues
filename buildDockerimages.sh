@@ -10,6 +10,7 @@ build() {
     alpine-git) DOCKERFILE=Dockerfile.alpine ;;
     fedora36-git) DOCKERFILE=Dockerfile.fedora36 ;;
     archlinux-git) DOCKERFILE=Dockerfile.archlinux ;;
+    debiantesting-git) DOCKERFILE=Dockerfile.debiantesting ;;
   esac
 }
 
