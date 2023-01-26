@@ -9,6 +9,7 @@ build() {
     ubuntulunar-git) DOCKERFILE=Dockerfile.ubuntulunar ;;
     alpine-git) DOCKERFILE=Dockerfile.alpine ;;
     fedora36-git) DOCKERFILE=Dockerfile.fedora36 ;;
+    archlinux-git) DOCKERFILE=Dockerfile.archlinux ;;
   esac
 }
 

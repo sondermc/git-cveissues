@@ -1,0 +1,4 @@
+FROM docker.io/library/archlinux
+RUN pacman -Syu --noconfirm
+RUN pacman -Syu --noconfirm git
+ENTRYPOINT git --version

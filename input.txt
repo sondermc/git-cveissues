@@ -3,3 +3,4 @@ centos9-git
 ubuntulunar-git
 alpine-git
 fedora36-git
+archlinux-git
