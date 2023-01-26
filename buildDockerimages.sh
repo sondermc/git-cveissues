@@ -6,6 +6,7 @@ build() {
   case $1 in
     centos8-git) DOCKERFILE=Dockerfile.CentOS8 ;;
     centos9-git) DOCKERFILE=Dockerfile.CentOS9 ;;
+    ubuntulunar-git) DOCKERFILE=Dockerfile.ubuntulunar ;;
   esac
 }
 
