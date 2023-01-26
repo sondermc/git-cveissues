@@ -17,5 +17,5 @@ build() {
 for distro in $(cat input.txt) 
 do
   build $distro
-  podman build -t ${distro} -f ${DOCKERFILE} .
+  docker build -t ${distro} -f ${DOCKERFILE} .
 done
