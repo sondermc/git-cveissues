@@ -4,8 +4,17 @@ rhel7-git
 rhel8-git
 rhel9-git
 ubuntulunar-git
+ubuntukinetic-git
+ubuntujammy-git
+ubuntufocal-git
+ubuntubionic-git
+ubuntuxenial-git
+ubuntutrusty-git
 alpine-git
+fedora34-git
+fedora35-git
 fedora36-git
+fedora37-git
 archlinux-git
 debianstable-git
 debiantesting-git

@@ -1,4 +1,4 @@
-FROM docker.io/library/ubuntu:lunar
+FROM docker.io/library/ubuntu:focal
 RUN apt-get clean
 RUN apt-get -y update
 RUN apt-get -y install git

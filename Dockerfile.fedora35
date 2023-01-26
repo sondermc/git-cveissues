@@ -1,0 +1,4 @@
+FROM docker.io/library/fedora:35
+RUN dnf -y update --refresh
+RUN dnf -y install git
+ENTRYPOINT git --version
