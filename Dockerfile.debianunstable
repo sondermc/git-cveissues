@@ -1,0 +1,5 @@
+FROM docker.io/library/debian:unstable-slim
+RUN apt-get clean
+RUN apt-get -y update
+RUN apt-get -y install git
+ENTRYPOINT git --version

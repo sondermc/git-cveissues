@@ -6,11 +6,16 @@ build() {
   case $1 in
     centos8-git) DOCKERFILE=Dockerfile.CentOS8 ;;
     centos9-git) DOCKERFILE=Dockerfile.CentOS9 ;;
+    rhel7-git) DOCKERFILE=Dockerfile.rhel7 ;;
+    rhel8-git) DOCKERFILE=Dockerfile.rhel8 ;;
+    rhel9-git) DOCKERFILE=Dockerfile.rhel9 ;;
     ubuntulunar-git) DOCKERFILE=Dockerfile.ubuntulunar ;;
     alpine-git) DOCKERFILE=Dockerfile.alpine ;;
     fedora36-git) DOCKERFILE=Dockerfile.fedora36 ;;
     archlinux-git) DOCKERFILE=Dockerfile.archlinux ;;
-    debiantesting-git) DOCKERFILE=Dockerfile.debiantesting ;;
+    debianstable-git) DOCKERFILE=Dockerfile.debianstable ;;
+    debiantesting-git) DOCKERFILE=Dockerfile.debiantesting ;;    
+    debianunstable-git) DOCKERFILE=Dockerfile.debianunstable ;;
   esac
 }
 

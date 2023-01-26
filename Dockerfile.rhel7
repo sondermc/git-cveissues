@@ -1,0 +1,4 @@
+FROM registry.access.redhat.com/ubi7/ubi
+RUN yum -y update
+RUN yum -y install git
+ENTRYPOINT git --version
