@@ -1,0 +1,4 @@
+FROM docker.io/library/alpine
+RUN apk update
+RUN apk add git
+ENTRYPOINT git --version
