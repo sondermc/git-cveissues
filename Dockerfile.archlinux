@@ -1,4 +1,5 @@
 FROM docker.io/library/archlinux
+RUN rm -rf /var/cache/pacman/pkg/*
 RUN pacman -Syu --noconfirm
 RUN pacman -Syu --noconfirm git
 ENTRYPOINT git --version

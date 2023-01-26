@@ -16,5 +16,5 @@ do
     MESSAGE="[WARNING]"
   fi
   
-  printf "${MESSAGE} ${distro}: ${RAWGITVERSION}\n"
+  printf "${MESSAGE} ${PRETTY_NAME}: ${RAWGITVERSION}\n"
 done
