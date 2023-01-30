@@ -1,4 +1,4 @@
 FROM docker.io/gentoo/stage3
-RUN emaint --auto sync
+RUN emerge-webrsync
 RUN emerge dev-vcs/git
 ENTRYPOINT git --version
