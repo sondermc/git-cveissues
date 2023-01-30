@@ -1,3 +1,4 @@
+gentoo-git
 alpine-git
 archlinux-git
 centos8-git
@@ -9,7 +10,6 @@ fedora34-git
 fedora35-git
 fedora36-git
 fedora37-git
-gentoo-git
 rhel7-git
 rhel8-git
 rhel9-git
